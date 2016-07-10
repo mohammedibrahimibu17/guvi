@@ -2,7 +2,7 @@
 #define bool int
 #define Row 6
 #define Col 5
-void max(bool M[Row][Col])
+void maxtrix(bool M[Row][Col])
 {
 int i,j;
 int S[Row][Col];
@@ -63,6 +63,6 @@ bool M[Row][Col] = {{0, 1, 1, 0, 1},
 				{1, 1, 1, 1, 1},
 				{0, 0, 0, 0, 0}};
 				
-max(M);
+maxtrix(M);
 getchar(); 
 } 
